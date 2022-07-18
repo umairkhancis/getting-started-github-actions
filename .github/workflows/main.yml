@@ -46,4 +46,4 @@ jobs:
           echo
           gradle --version
           echo
-          ant --version
+          ant -version
