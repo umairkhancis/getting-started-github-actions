@@ -47,3 +47,4 @@ jobs:
           gradle --version
           echo
           ant -version
+          env
