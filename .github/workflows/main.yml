@@ -32,4 +32,7 @@ jobs:
       - name: Shell Script
         run: sh ./script.sh
         
+      - name: Python Script
+        run: python script.py
+        
         
