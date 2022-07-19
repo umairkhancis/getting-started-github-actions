@@ -37,6 +37,8 @@ jobs:
         run: python script.py
 
       - name: Results
-        run: echo $steps.python_script.outputs.MY_KEY
+        run: |
+          echo ${steps.python_script.outputs.MY_KEY}
+          echo $JAVA_HOME
         
         
