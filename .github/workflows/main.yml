@@ -33,6 +33,10 @@ jobs:
         run: sh ./script.sh
         
       - name: Python Script
+        id: python_script
         run: python script.py
+
+      - name: Results
+        run: echo $steps.python_script.outputs.MY_KEY
         
         
